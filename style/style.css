@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1146px;
+  margin: 0 auto;
+  padding: 0px 25px;
+}
+
+.wrap-update-news {
+  color: black;
+  font-size: 43px;
+  font-weight: 600;
+  font-family: "Josefin Sans";
+  padding: 60px;
+}
+
+.wrap-update-news h1 {
+  color: black;
+  font-size: 43px;
+  font-weight: 600;
+  font-family: "Josefin Sans";
+  text-align: center;
+  padding: 140px 0 20px;
+}
+
+.wrap-update-news p {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.wrap-coffe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.white-block {
+  width: 362px;
+  height: 536px;
+  background: #FFFFFF;
+  box-shadow: 40px 15px 136px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.white-block h2 {
+  color: black;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Josefin Sans";
+  padding: 30px 10px 15px 30px;
+}
+
+.white-block p {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  padding: 30px 10px 15px 30px;
+}
+
+.white-block a {
+  padding: 30px 10px 15px 30px;
+}/*# sourceMappingURL=style.css.map */

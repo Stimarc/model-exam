@@ -1,0 +1,24 @@
+@media(max-width:1146px){
+    .container{
+        max-width: 970px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media(max-width:992px){
+    .container{
+        max-width: 750px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media(max-width:767px){
+    .container{
+        max-width: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
