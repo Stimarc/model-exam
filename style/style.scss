@@ -8,3 +8,34 @@
     list-style: none;
     text-decoration: none;
 }
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    height: 1000px;
+    background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+    background: url(../images/Pattern\ Splash.png)no-repeat;
+}
+.header a{
+font-family: 'TT Norms';
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+margin: 15px;
+}
+.menu-item{
+    display:flex;
+    justify-content: flex-end;
+}
+.item-lg{
+    text-transform: uppercase;
+}
+
+.wrap-nav{
+    display: flex;
+    justify-content: end;
+}
+.nav{
+display:inline;
+}
