@@ -8,8 +8,14 @@
     list-style: none;
     text-decoration: none;
 }
+ol,ul{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
 .container{
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
 }
 .first-section{
@@ -25,12 +31,17 @@ line-height: 21px;
 color: #FFFFFF;
 margin: 15px;
 }
-.nav nav-pills{
-display: flex
+.logo{
+    padding: 35px;
 }
+.wrap-lang{
+display: flex;
+justify-content: end;
 
-
-
+}
+.language1{
+background: url(../images/Active.png)no-repeat center;
+}
 .wrap-nav{
     display: flex;
     justify-content: end;
@@ -45,7 +56,9 @@ line-height: 45px;
 text-align: center;
 color: #FFFFFF;
 }
-
+.scroll{
+    text-align: center;
+}
 .exp-active{
     font-family: 'TT Norms';
     font-size: 42px;
@@ -60,6 +73,24 @@ font-family: 'TT Norms';
 font-size: 42px;
 line-height: 50px;
 color: #B3B3BA;
+}
+.selector{
+display: flex;
+justify-content: center;
+margin-top: -270px;
+}
+
+.introduction h1{
+    font-family: 'TT Norms';
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.introduction p{
+    font-family: 'TT Norms';
+    font-size: 21px;
+    line-height: 30px;  
+    color: #FFFFFF;
 }
 .second-section{
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);

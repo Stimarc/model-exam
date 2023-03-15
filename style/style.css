@@ -6,8 +6,16 @@
   text-decoration: none;
 }
 
+ol, ul {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .container {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
 }
 
@@ -23,8 +31,17 @@
   margin: 15px;
 }
 
-.nav nav-pills {
+.logo {
+  padding: 35px;
+}
+
+.wrap-lang {
   display: flex;
+  justify-content: end;
+}
+
+.language1 {
+  background: url(../images/Active.png) no-repeat center;
 }
 
 .wrap-nav {
@@ -44,6 +61,10 @@
   color: #FFFFFF;
 }
 
+.scroll {
+  text-align: center;
+}
+
 .exp-active {
   font-family: "TT Norms";
   font-size: 42px;
@@ -59,6 +80,26 @@
   font-size: 42px;
   line-height: 50px;
   color: #B3B3BA;
+}
+
+.selector {
+  display: flex;
+  justify-content: center;
+  margin-top: -270px;
+}
+
+.introduction h1 {
+  font-family: "TT Norms";
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.introduction p {
+  font-family: "TT Norms";
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
 }
 
 .second-section {
