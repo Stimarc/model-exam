@@ -1,65 +1,84 @@
 @import './variables.scss';
 @import './mixins.scss';
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
 }
-ol,ul{
+
+ol,
+ul {
     text-decoration: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.container{
+
+.container {
     width: 1440px;
     margin: 0 auto;
 }
-.first-section{
+
+.first-section {
     background: url("../images/blur.png") repeat-x center bottom,
-    url("../images/symbol.png") no-repeat center bottom,
-    url("../images/pattern.svg") no-repeat center bottom,
-    linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%)
+        url("../images/symbol.png") no-repeat center bottom,
+        url("../images/pattern.svg") no-repeat center bottom,
+        linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%)
 }
-.header a{
-font-family: 'TT Norms';
-font-size: 18px;
-line-height: 21px;
-color: #FFFFFF;
-margin: 15px;
+
+.header a {
+    font-family: 'TT Norms';
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 15px;
 }
-.logo{
+
+.logo {
     padding: 35px;
 }
-.wrap-lang{
-display: flex;
-justify-content: end;
+
+.wrap-lang {
+    display: flex;
+    justify-content: end;
 
 }
-.language1{
-background: url(../images/Active.png)no-repeat center;
+
+.language1 {
+    background: url(../images/Active.png)no-repeat center;
 }
-.wrap-nav{
+
+.wrap-nav {
     display: flex;
     justify-content: end;
 }
-.nav{
-display:inline;
+
+.nav {
+    display: inline;
 }
-.text{
-font-family: 'TT Norms';
-font-size: 38px;
-line-height: 45px;
-text-align: center;
-color: #FFFFFF;
+
+.text {
+    font-family: 'TT Norms';
+    font-size: 38px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
 }
-.scroll{
+
+.scroll {
     text-align: center;
 }
-.exp-active{
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp-active {
     font-family: 'TT Norms';
     font-size: 42px;
     line-height: 50px;
@@ -68,37 +87,90 @@ color: #FFFFFF;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.exp a{
-font-family: 'TT Norms';
-font-size: 42px;
-line-height: 50px;
-color: #B3B3BA;
-}
-.selector{
-display: flex;
-justify-content: center;
-margin-top: -270px;
+
+.exp a {
+    font-family: 'TT Norms';
+    font-size: 42px;
+    line-height: 50px;
+    color: #B3B3BA;
 }
 
-.introduction h1{
+.introduction h1 {
     font-family: 'TT Norms';
     font-size: 32px;
     line-height: 38px;
     color: #FFFFFF;
 }
-.introduction p{
+
+.introduction p {
     font-family: 'TT Norms';
     font-size: 21px;
-    line-height: 30px;  
+    line-height: 30px;
     color: #FFFFFF;
 }
-.second-section{
+
+.head1 a {
+    font-family: 'TT Norms';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-left: 60px;
+}
+
+.head1 img {
+    font-family: 'TT Norms';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 5.5px;
+}
+
+.head2 {
+    font-family: 'TT Norms';
+    font-size: 42px;
+    line-height: 50px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 60px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-menu{
+    margin-left: 60px;
+}
+.service-menu h3 {
+    font-family: 'TT Norms';
+    font-size: 24px;
+    line-height: 28px;
+    color: #24A3FF;
+}
+.service-menu p {
+    font-family: 'TT Norms';
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.second-section {
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
     border-radius: 0 0 12px 12px;
     position: relative;
     margin-bottom: 100px;
 }
-.second-section:before,.second-section:after{
+
+.second-section:before,
+.second-section:after {
     content: '';
     position: absolute;
     bottom: -10px;
@@ -107,7 +179,8 @@ margin-top: -270px;
     background: url('../images/bottom-line-big.png') no-repeat center center;
     background-size: 98%;
 }
-.second-section:after{
+
+.second-section:after {
     bottom: -20px;
     background: url('../images/bottom-line-small.png') no-repeat center center;
     background-size: 95%;
