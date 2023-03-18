@@ -21,11 +21,13 @@ a {
 }
 
 .first-section {
-  background: url("../images/blur.png") repeat-x center bottom, url("../images/symbol.png") no-repeat center , url("../images/pattern.svg") no-repeat center , linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+  background: url("../images/blur.png") repeat-x center bottom, url("../images/symbol.png") no-repeat center, url("../images/pattern.svg") no-repeat center, linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
 }
-.head{
+
+.head {
   margin-bottom: 100px;
 }
+
 .head a {
   font-family: "TT Norms";
   font-size: 18px;
@@ -36,6 +38,7 @@ a {
 
 .logo {
   padding: 35px;
+  margin-bottom: -100px;
 }
 
 .wrap-lang {
@@ -52,18 +55,14 @@ a {
   justify-content: end;
 }
 
-.nav {
-  display: inline;
-}
-
 .text {
   font-family: "TT Norms";
   font-size: 38px;
   line-height: 45px;
   text-align: center;
   color: #FFFFFF;
-  margin: 358px 0 290px;
-  padding-top: -100px;
+  margin: 358px 320px 290px;
+
 }
 
 .scroll {
@@ -144,8 +143,22 @@ a {
   justify-content: space-between;
 }
 
-.service-menu {
-  margin-left: 60px;
+.service-menu6 {
+  margin-top: 65px;
+}
+
+.service-menu6 h3 {
+  font-family: "TT Norms";
+  font-size: 24px;
+  line-height: 28px;
+  color: #24A3FF;
+}
+
+.service-menu6 p {
+  font-family: "TT Norms";
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
 }
 
 .service-menu h3 {
@@ -162,11 +175,90 @@ a {
   color: #FFFFFF;
 }
 
+.third-section {
+  background: #E5E5E5;
+  padding-top: 40px;
+}
+
+.carousel-inner {
+  background: #F5F5FA;
+  border-radius: 12px;
+}
+
+.texting {
+  display: flex;
+}
+
+.texting h3 {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+
+.texting p {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.texting h4 {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #B3B3BA;
+
+}
+.texting span {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+.heading{
+  margin: 40px 40px 0;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #24A3FF;
+  border: none;
+  opacity: .2;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  display: none;
+}
+
 .second-section {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 12px 12px;
   position: relative;
-
 }
 
 .second-section:before,
