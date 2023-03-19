@@ -24,6 +24,29 @@ a {
   background: url("../images/blur.png") repeat-x center bottom, url("../images/symbol.png") no-repeat center, url("../images/pattern.svg") no-repeat center, linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
 }
 
+.second-section {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  border-radius: 0 0 12px 12px;
+  position: relative;
+}
+
+.second-section:before,
+.second-section:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+  height: 10px;
+  background: url("../images/bottom-line-big.png") no-repeat center center;
+  background-size: 98%;
+}
+
+.second-section:after {
+  bottom: -20px;
+  background: url("../images/bottom-line-small.png") no-repeat center center;
+  background-size: 95%;
+}
+
 .head {
   margin-bottom: 100px;
 }
@@ -45,14 +68,25 @@ a {
   display: flex;
   justify-content: end;
 }
-
-.language1 {
-  background: url(../images/Active.png) no-repeat center;
+.menu-lang{
+  display: flex;
+  position: relative;
 }
-
+.language-active a{
+  width: 29px;
+  height: 24px;
+  background: url(../images/Active.png);
+  border-radius: 8px;
+}
+.language a:hover{
+  color: #F0145A;
+}
 .wrap-nav {
   display: flex;
   justify-content: end;
+}
+.wrap-nav a:hover{
+  color: #F0145A;
 }
 
 .text {
@@ -74,7 +108,9 @@ a {
   display: flex;
   justify-content: space-between;
 }
-
+.exp-menu a:hover{
+  color: #F0145A;
+}
 .exp-active {
   font-family: "TT Norms";
   font-size: 42px;
@@ -106,11 +142,13 @@ a {
   line-height: 30px;
   color: #FFFFFF;
 }
-.headin{
- margin-left: -50px;
- margin-top: 80px;
- margin-bottom: 68px;
+
+.headin {
+  margin-left: -50px;
+  margin-top: 80px;
+  margin-bottom: 68px;
 }
+
 .head1 a {
   font-family: "TT Norms";
   font-size: 14px;
@@ -268,16 +306,18 @@ a {
   background: #E5E5E5;
   padding-top: 40px;
 }
-.clients h3{
-font-family: 'TT Norms';
-font-size: 14px;
-line-height: 17px;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: #323264;
-text-align: center;
-padding: 50px;
+
+.clients h3 {
+  font-family: 'TT Norms';
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  text-align: center;
+  padding: 50px;
 }
+
 .grid {
   display: grid;
   grid-template-columns: 360px 360px 360px 360px;
@@ -312,58 +352,63 @@ padding: 50px;
 
 .gridclient6 {
   padding: 36px 88px;
-  background:rgba(226, 226, 228, 1);
+  background: rgba(226, 226, 228, 1);
 }
 
 .gridclient7 {
   padding: 31px 111px;
-  background:rgba(199, 28, 54, 1);
+  background: rgba(199, 28, 54, 1);
 }
 
 .gridclient8 {
   padding: 22px 107px;
-  background:rgba(220, 243, 249, 1);
+  background: rgba(220, 243, 249, 1);
 }
 
 .gridclient9 {
   padding: 30px 89px;
-  background:rgba(234, 234, 234, 1);
+  background: rgba(234, 234, 234, 1);
 }
 
 .gridclient10 {
   padding: 41px 90px;
-  background:rgba(40, 34, 64, 1);
+  background: rgba(40, 34, 64, 1);
 }
 
 .gridclient11 {
   padding: 37px 86px;
-  background:rgba(29, 69, 104, 1);
+  background: rgba(29, 69, 104, 1);
 }
 
 .gridclient12 {
   padding: 13px 104px;
-  background:rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 1);
 }
-.sixt section{
+
+.sixt section {
   background: #F5F5FA;
 }
-.publication{
-margin: 40px 59px;
+
+.publication {
+  margin: 40px 59px;
 }
-.public a{
-font-family: 'TT Norms';
-font-size: 14px;
-line-height: 17px;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: #24A3FF;
+
+.public a {
+  font-family: 'TT Norms';
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
 }
-.public img{
+
+.public img {
   width: 12px;
   height: 12px;
   margin-top: 3px;
 }
-.public2{
+
+.public2 {
   font-family: 'TT Norms';
   font-size: 42px;
   line-height: 50px;
@@ -373,25 +418,166 @@ color: #24A3FF;
   background-clip: text;
   text-fill-color: transparent;
 }
-.second-section {
-  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
-  border-radius: 0 0 12px 12px;
-  position: relative;
+
+.gridpublic {
+  display: grid;
+  grid-template-columns: 413px 413px 413px;
+  grid-template-rows: 265px 420px 462px;
+  grid-gap: 40px;
 }
 
-.second-section:before,
-.second-section:after {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  width: 100%;
-  height: 10px;
-  background: url("../images/bottom-line-big.png") no-repeat center center;
-  background-size: 98%;
+.gridpubl1 {
+  border-radius: 8px;
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.2);
+
 }
 
-.second-section:after {
-  bottom: -20px;
-  background: url("../images/bottom-line-small.png") no-repeat center center;
-  background-size: 95%;
+.gridpubl1 h4 {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 21px;
+  color: #24A3FF;
+  padding: 20px 0px 20px 40px;
+}
+
+.gridpubl1 span {
+  font-family: 'TT Norms';
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #B3B3BA;
+  padding: 20px 0px 20px 40px;
+}
+.separator{
+  text-align: center;
+}
+.gridpubl1 p {
+  font-family: 'TT Norms';
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding: 20px 0px 20px 40px;
+  padding-top: 10px;
+}
+.gridpubl2{
+  border-radius: 8px;
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.2);
+}
+.gridpubl2 h4 {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 21px;
+  color: #24A3FF;
+  padding: 20px 0px 20px 40px;
+}
+
+.gridpubl2 span {
+  font-family: 'TT Norms';
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #B3B3BA;
+  padding: 20px 0px 20px 40px;
+}
+.separator{
+  text-align: center;
+}
+.gridpubl2 p {
+  font-family: 'TT Norms';
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding: 20px 0px 20px 40px;
+  padding-top: 10px;
+}
+.gridpubl3{
+  border-radius: 8px;
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.2);
+}
+.gridpubl3 h4 {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 21px;
+  color: #24A3FF;
+  padding: 20px 0px 20px 40px;
+}
+
+.gridpubl3 span {
+  font-family: 'TT Norms';
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #B3B3BA;
+  padding: 20px 0px 20px 40px;
+}
+.separator{
+  text-align: center;
+}
+.gridpubl3 p {
+  font-family: 'TT Norms';
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding: 20px 0px 20px 40px;
+  padding-top: 10px;
+}
+.gridpubl4{
+  border-radius: 8px;
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.2);
+}
+.gridpubl4 h4 {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 21px;
+  color: #24A3FF;
+  padding: 20px 0px 20px 40px;
+}
+
+.gridpubl4 span {
+  font-family: 'TT Norms';
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #B3B3BA;
+  padding: 20px 0px 20px 40px;
+}
+.separator{
+  text-align: center;
+}
+.gridpubl4 p {
+  font-family: 'TT Norms';
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding: 20px 0px 20px 40px;
+  padding-top: 10px;
+}
+.gridpubl5{
+  padding-top: 200px;
+}
+.gridpubl6{
+  padding-top: 200px;
+}
+.wrap-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: -600px;
+}
+.btn{
+width: 250px;
+background: #24A3FF;
+box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+border-radius: 12px;
+
+}
+.btn a{
+font-family: 'TT Norms';
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+display: inline-block;
 }
