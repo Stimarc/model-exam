@@ -19,17 +19,19 @@ a {
     width: 1440px;
     margin: 0 auto;
 }
+
 .head {
-  margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .head a {
-  font-family: "TT Norms";
-  font-size: 18px;
-  line-height: 21px;
-  color: #FFFFFF;
-  margin: 15px;
+    font-family: "TT Norms";
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 15px;
 }
+
 .logo {
     padding: 35px;
     margin-bottom: -100px;
@@ -40,10 +42,10 @@ a {
     justify-content: end;
 }
 
-.menu-lang  {
+.menu-lang {
     display: flex;
     position: relative;
-   
+
 }
 
 .language-active a {
@@ -156,6 +158,7 @@ a {
     justify-content: center;
     margin-top: 100px;
 }
+
 
 .more-text {
     display: flex;
