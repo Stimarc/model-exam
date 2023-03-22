@@ -68,24 +68,29 @@ a {
   display: flex;
   justify-content: end;
 }
-.menu-lang{
+
+.menu-lang {
   display: flex;
   position: relative;
 }
-.language-active a{
+
+.language-active a {
   width: 29px;
   height: 24px;
   background: url(../images/Active.png);
   border-radius: 8px;
 }
-.language a:hover{
+
+.language a:hover {
   color: #F0145A;
 }
+
 .wrap-nav {
   display: flex;
   justify-content: end;
 }
-.wrap-nav a:hover{
+
+.wrap-nav a:hover {
   color: #F0145A;
 }
 
@@ -108,9 +113,11 @@ a {
   display: flex;
   justify-content: space-between;
 }
-.exp-menu a:hover{
+
+.exp-menu a:hover {
   color: #F0145A;
 }
+
 .exp-active {
   font-family: "TT Norms";
   font-size: 42px;
@@ -254,7 +261,6 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .texting h4 {
@@ -449,9 +455,11 @@ a {
   color: #B3B3BA;
   padding: 20px 0px 20px 40px;
 }
-.separator{
+
+.separator {
   text-align: center;
 }
+
 .gridpubl1 p {
   font-family: 'TT Norms';
   font-size: 16px;
@@ -460,10 +468,12 @@ a {
   padding: 20px 0px 20px 40px;
   padding-top: 10px;
 }
-.gridpubl2{
+
+.gridpubl2 {
   border-radius: 8px;
   box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.2);
 }
+
 .gridpubl2 h4 {
   font-family: 'TT Norms';
   font-size: 18px;
@@ -481,9 +491,11 @@ a {
   color: #B3B3BA;
   padding: 20px 0px 20px 40px;
 }
-.separator{
+
+.separator {
   text-align: center;
 }
+
 .gridpubl2 p {
   font-family: 'TT Norms';
   font-size: 16px;
@@ -492,10 +504,12 @@ a {
   padding: 20px 0px 20px 40px;
   padding-top: 10px;
 }
-.gridpubl3{
+
+.gridpubl3 {
   border-radius: 8px;
   box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.2);
 }
+
 .gridpubl3 h4 {
   font-family: 'TT Norms';
   font-size: 18px;
@@ -513,9 +527,11 @@ a {
   color: #B3B3BA;
   padding: 20px 0px 20px 40px;
 }
-.separator{
+
+.separator {
   text-align: center;
 }
+
 .gridpubl3 p {
   font-family: 'TT Norms';
   font-size: 16px;
@@ -524,10 +540,12 @@ a {
   padding: 20px 0px 20px 40px;
   padding-top: 10px;
 }
-.gridpubl4{
+
+.gridpubl4 {
   border-radius: 8px;
   box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.2);
 }
+
 .gridpubl4 h4 {
   font-family: 'TT Norms';
   font-size: 18px;
@@ -545,9 +563,11 @@ a {
   color: #B3B3BA;
   padding: 20px 0px 20px 40px;
 }
-.separator{
+
+.separator {
   text-align: center;
 }
+
 .gridpubl4 p {
   font-family: 'TT Norms';
   font-size: 16px;
@@ -556,38 +576,117 @@ a {
   padding: 20px 0px 20px 40px;
   padding-top: 10px;
 }
-.gridpubl5{
+
+.gridpubl5 {
   padding-top: 200px;
 }
-.gridpubl6{
+
+.gridpubl6 {
   padding-top: 200px;
 }
-.wrap-btn{
+
+.wrap-btn {
   display: flex;
   justify-content: center;
   margin-top: -600px;
 }
-.btn{
-width: 250px;
-background: #24A3FF;
-box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
-border-radius: 12px;
+
+.btn {
+  width: 250px;
+  background: #24A3FF;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
 
 }
-.btn a{
-font-family: 'TT Norms';
-font-size: 14px;
-line-height: 17px;
-color: #FFFFFF;
-display: inline-block;
+
+.btn a {
+  font-family: 'TT Norms';
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  display: inline-block;
 }
+
 /* .about page */
+
+.about-wrap-lang {
+  display: flex;
+  justify-content: end;
+}
+
+.about-wrap-lang {
+  display: flex;
+  justify-content: end;
+}
+
+.about-menu-lang {
+  display: flex;
+  position: relative;
+}
+
+.about-language-active a {
+  width: 29px;
+  height: 24px;
+  background: url(../images/Active.png);
+  border-radius: 8px;
+}
+
+.about-language a:hover {
+  color: #F0145A;
+}
+
+.about-language1 a{
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(179, 179, 186, 1);
+}
+
+.about-wrap-nav {
+  display: flex;
+  justify-content: end;
+}
+
+.about-wrap-nav a:hover {
+  color: #F0145A;
+}
+
+.menu-lang {
+  display: flex;
+  position: relative;
+}
+
+.about-language-active a {
+  width: 29px;
+  height: 24px;
+  background: url(../images/Active.png);
+  border-radius: 8px;
+}
+
+.about-language a:hover {
+  color: #F0145A;
+}
+
+.about-wrap-nav {
+  display: flex;
+  justify-content: end;
+}
+
+.about-wrap-nav a:hover {
+  color: #F0145A;
+}
+
 .about {
   display: flex;
   position: relative;
 }
 
-.language a {
+.about-language a {
   font-family: 'TT Norms';
   font-style: normal;
   font-weight: 700;
@@ -598,7 +697,7 @@ display: inline-block;
   color: rgba(179, 179, 186, 1);
 }
 
-.menu-lang a {
+.about-menu-lang a {
   font-family: 'TT Norms';
   font-style: normal;
   font-weight: 700;
@@ -618,7 +717,7 @@ display: inline-block;
   color: #B3B3BA;
 }
 
-.wrap-nav a {
+.about-wrap-nav a {
   font-family: 'TT Norms';
   font-size: 18px;
   line-height: 21px;
@@ -627,13 +726,13 @@ display: inline-block;
   margin: 15px;
 }
 
-.introduction {
+.about-introduction {
   display: flex;
   justify-content: space-between;
   margin-top: 82px;
 }
 
-.introduction h3 {
+.about-introduction h3 {
   font-family: 'TT Norms';
   font-size: 42px;
   line-height: 50px;
@@ -643,31 +742,31 @@ display: inline-block;
   background-clip: text;
 }
 
-.introduction p {
+.about-introduction p {
   font-family: 'TT Norms';
   font-size: 21px;
   line-height: 30px;
   color: #000000;
 }
 
-.advantages {
+.about-advantages {
   margin-right: 50px;
 }
 
-.photo {
+.about-photo {
   display: flex;
   justify-content: center;
   margin-top: 100px;
 }
 
 
-.more-text {
+.about-more-text {
   display: flex;
   justify-content: space-evenly;
   margin-top: 80px;
 }
 
-.more-text p {
+.about-more-text p {
   font-family: 'TT Norms';
   font-size: 21px;
   line-height: 30px;
@@ -675,7 +774,7 @@ display: inline-block;
 
 }
 
-.more-text h3 {
+.about-more-text h3 {
   font-family: 'TT Norms';
   font-size: 42px;
   line-height: 50px;
