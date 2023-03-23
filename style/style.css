@@ -308,6 +308,174 @@ a {
   display: none;
 }
 
+.caseitem-text h3 {
+  font-family: 'TT Norms';
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #F0145A;
+  margin: 20px 20px 20px;
+}
+
+.caseitem1 h3 {
+  font-family: 'TT Norms';
+  font-size: 24px;
+  line-height: 28px;
+  color: #686887;
+  margin: 20px 20px 20px;
+  ;
+}
+
+.caseitem1 p {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+  margin: 20px 20px 20px;
+}
+
+.caseitem2 h3 {
+  font-family: 'TT Norms';
+  font-size: 24px;
+  line-height: 28px;
+  color: #686887;
+  margin: 20px
+}
+
+.caseitem2 p {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+  margin: 20px
+}
+
+.caseitem3 h3 {
+  font-family: 'TT Norms';
+  font-size: 24px;
+  line-height: 28px;
+  color: #686887;
+  margin: 20px 20px 20px;
+}
+
+.caseitem3 p {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+  margin: 20px 20px 20px;
+}
+
+.caseitem4 h3 {
+  font-family: 'TT Norms';
+  font-size: 24px;
+  line-height: 28px;
+  color: #686887;
+  margin: 20px 20px 20px;
+}
+
+.caseitem4 p {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+  margin: 20px 20px 20px;
+}
+
+.caseitem5 h3 {
+  font-family: 'TT Norms';
+  font-size: 24px;
+  line-height: 28px;
+  color: #686887;
+  margin: 20px 20px 20px;
+}
+
+.caseitem5 p {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+  margin: 20px 20px 20px;
+}
+
+.caseitem6 h3 {
+  font-family: 'TT Norms';
+  font-size: 24px;
+  line-height: 28px;
+  color: #686887;
+  margin: 20px 20px 20px;
+}
+
+.caseitem6 p {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+  margin: 20px 20px 20px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 320px 113px 340px 114px 433px;
+  grid-template-rows: 57px repeat(2, 198px);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background: #F5F5FA;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px;
+  margin: 77px 0px 30px;
+}
+
+.case1 {
+  grid-area: 1/1/2/3;
+  background: #F5F5FA;
+  border: 1px solid #FFFFFF;
+  border-radius: 12px 0px 0px 0px;
+}
+
+.case2 {
+  grid-area: 2/1/3/3;
+  background: #F5F5FA;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px;
+}
+
+.case3 {
+  grid-area: 3/1/4/2;
+  background: #F5F5FA;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px 0px 0px 12px;
+}
+
+.case4 {
+  grid-area: 3/2/4/4;
+  background: #F5F5FA;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px;
+}
+
+.case5 {
+  grid-area: 1/3/3/5;
+  background: #F5F5FA;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px;
+}
+
+.case6 {
+  grid-area: 3/4/4/6;
+  background: #F5F5FA;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px 0px 12px 0px;
+}
+
+.case7 {
+  grid-area: 1/5/3/6;
+  background: #F5F5FA;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px 12px 0px 0px;
+}
+
 .fifth section {
   background: #E5E5E5;
   padding-top: 40px;
@@ -607,7 +775,110 @@ a {
   display: inline-block;
 }
 
+.footer {
+  visibility: hidden;
+  height: 151px;
+  left: 0px;
+  right: 0px;
+  top: 151px;
+  background: #F5F5FA;
+  border-radius: 0px 0px 12px 12px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.foot-map {
+  display: flex;
+  margin: 32px 60px 31px;
+}
+
+.city a {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #323264;
+}
+
+.dot-sep img {
+  margin-left: 31px;
+  margin-right: 10px;
+}
+
+.dot-sep a {
+  font-family: 'TT Norms';
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+
+.facemail {
+  display: flex;
+  margin-left: 50px;
+}
+
+.face-logo {
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.dot-grey {
+  margin-right: 32px;
+}
+
+.numb a {
+  font-family: 'TT Norms';
+  font-size: 16px;
+  line-height: 19px;
+  color: #46466E;
+  margin-right: 10px;
+}
+
+.mail img {
+  margin-right: 10px;
+}
+
+.mail a {
+  font-family: 'TT Norms';
+  font-size: 16px;
+  line-height: 19px;
+  color: #24A3FF;
+}
+
+.copy h2 {
+  display: flex;
+  justify-content: end;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B3B3BA;
+  margin-top: -90px;
+  margin-right: 50px;
+
+}
+
+.separator-grey img {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
 /* .about page */
+.about-logo{
+  margin-top: 50px;
+}
+.about-logo span {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  color: #323264;
+}
 
 .about-wrap-lang {
   display: flex;
@@ -635,7 +906,7 @@ a {
   color: #F0145A;
 }
 
-.about-language1 a{
+.about-language1 a {
   font-family: 'TT Norms';
   font-style: normal;
   font-weight: 700;
@@ -782,4 +1053,100 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* services page */
+.logo span {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+
+.footer {
+  visibility: hidden;
+  background: #F5F5FA;
+  border-radius: 0px 0px 12px 12px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.servicewrap-footer {
+  padding-bottom: 50px;
+}
+
+.servicefoot-map {
+  display: flex;
+  margin: 32px 60px 31px;
+}
+
+.servicecity a {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #323264;
+}
+
+.servicedot-sep img {
+  margin-left: 31px;
+  margin-right: 10px;
+}
+
+.servicedot-sep a {
+  font-family: 'TT Norms';
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+
+.servicefacemail {
+  display: flex;
+  margin-left: 50px;
+}
+
+.serviceface-logo {
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.servicedot-grey {
+  margin-right: 32px;
+}
+
+.servicenumb a {
+  font-family: 'TT Norms';
+  font-size: 16px;
+  line-height: 19px;
+  color: #46466E;
+  margin-right: 10px;
+}
+
+.servicemail img {
+  margin-right: 10px;
+}
+
+.servicemail a {
+  font-family: 'TT Norms';
+  font-size: 16px;
+  line-height: 19px;
+  color: #24A3FF;
+}
+
+.servicecopy h2 {
+  display: flex;
+  justify-content: end;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B3B3BA;
+  margin-top: -90px;
+  margin-right: 50px;
+
 }
