@@ -868,9 +868,10 @@ a {
 }
 
 /* .about page */
-.about-logo{
+.about-logo {
   margin-top: 50px;
 }
+
 .about-logo span {
   font-family: 'TT Norms';
   font-style: normal;
@@ -1055,6 +1056,32 @@ a {
   background-clip: text;
 }
 
+.second-about {
+  background: #F5F5FA;
+  border-radius: 12px 12px 0px 0px;
+}
+.wrap-achievments{
+  display: flex;
+}
+.achievment h3{
+display: flex;
+font-family: 'TT Norms';
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #323264;
+}
+.achievm{
+  display: flex;
+  margin: 15px;
+}
+.achiev-item{
+  width: 300px;
+  height: 109px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
 /* services page */
 .logo span {
   font-family: 'TT Norms';
