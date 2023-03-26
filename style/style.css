@@ -777,10 +777,6 @@ a {
 
 .footer {
   visibility: hidden;
-  height: 151px;
-  left: 0px;
-  right: 0px;
-  top: 151px;
   background: #F5F5FA;
   border-radius: 0px 0px 12px 12px;
   transform: matrix(1, 0, 0, -1, 0, 0);
@@ -868,6 +864,7 @@ a {
 }
 
 /* .about page */
+
 .about-logo {
   margin-top: 50px;
 }
@@ -1002,6 +999,7 @@ a {
   display: flex;
   justify-content: space-between;
   margin-top: 82px;
+  margin-bottom: 250px;
 }
 
 .about-introduction h3 {
@@ -1028,9 +1026,20 @@ a {
 .about-photo {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
 }
 
+.photo-text h2 {
+  font-family: 'TT Norms';
+  font-size: 96px;
+  line-height: 113px;
+  letter-spacing: 63px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.8;
+  text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+  margin-bottom: -270px;
+  margin-left: 210px;
+}
 
 .about-more-text {
   display: flex;
@@ -1043,7 +1052,6 @@ a {
   font-size: 21px;
   line-height: 30px;
   color: #000000;
-
 }
 
 .about-more-text h3 {
@@ -1060,28 +1068,100 @@ a {
   background: #F5F5FA;
   border-radius: 12px 12px 0px 0px;
 }
-.wrap-achievments{
+
+.wrap-achievments {
   display: flex;
+  justify-content: center;
+  padding: 30px;
 }
-.achievment h3{
-display: flex;
-font-family: 'TT Norms';
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: #323264;
-}
-.achievm{
+
+.achievment h3 {
   display: flex;
-  margin: 15px;
+  font-family: 'TT Norms';
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
 }
-.achiev-item{
+
+.wrap-achievm {
+  display: flex;
+  justify-content: space-around;
+}
+
+.achiev-item1 {
   width: 300px;
   height: 109px;
   background: #FFFFFF;
   border-radius: 12px;
 }
+
+.achiev-item2 {
+  width: 300px;
+  height: 109px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+
+.achiev-item3 {
+  width: 300px;
+  height: 109px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+
+.achiev-item4 {
+  width: 300px;
+  height: 109px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+
+.achiev-item1 img {
+  margin: 25px 110px 24px;
+}
+
+.achiev-item2 img {
+  margin: 25px 72px 24px;
+}
+
+.achiev-item3 img {
+  margin: 25px 53px 24px;
+}
+
+.achiev-item4 img {
+  margin: 25px 67px 24px;
+}
+
+.wrap-pagination {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.about-wrap-footer {
+  background: #F5F5FA;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.about-separator-grey img {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.about-copy h2 {
+  display: flex;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #B3B3BA;
+  margin-left: 470px;
+
+}
+
 /* services page */
 .logo span {
   font-family: 'TT Norms';
