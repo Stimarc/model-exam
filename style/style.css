@@ -559,10 +559,18 @@ a {
   background: rgba(0, 0, 0, 1);
 }
 
-.sixt section {
-  background: #F5F5FA;
+.sixt-section  {
+  height: 872px; 
+  overflow: hidden;
+  position: relative;
 }
-
+.shade{
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  background: url('../images/Shade.png') repeat-x center center/cover;
+}
 .publication {
   margin: 40px 59px;
 }
@@ -590,13 +598,12 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-
 }
 
 .gridpublic {
   display: grid;
   grid-template-columns: repeat(3, 414px);
-  grid-template-rows: 271px 120px 10px 280px;
+  grid-template-rows: 271px 120px 10px 270px;
   grid-gap: 40px;
 }
 
@@ -770,6 +777,8 @@ a {
   background: #24A3FF;
   box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
   border-radius: 12px;
+  position: relative;
+  z-index: 100;
 }
 
 .btn a {
@@ -780,16 +789,10 @@ a {
   display: inline-block;
 }
 
-.shade {
-  height: 200px;
-  margin-top: -150px;
-  overflow: hidden;
-  background: linear-gradient(180deg, rgba(245, 245, 250, 0) 0%, #F5F5FA 86.5%);
-}
-
 .wrap-footer {
   background: #F5F5FA;
   border-radius: 0px 0px 12px 12px;
+  margin-top: -32px;
 }
 
 .foot-map {
@@ -854,22 +857,12 @@ a {
 
 .copy h2 {
   display: flex;
-  justify-content: end;
   font-family: 'TT Norms';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
   color: #B3B3BA;
-  margin-top: -90px;
-  margin-right: 50px;
-
-}
-
-.separator-grey img {
-  display: flex;
-  margin-top: 150px;
-  margin-left: 50px;
+  margin-left: 570px;
 }
 
 /* .about page */
@@ -1181,11 +1174,9 @@ a {
 }
 
 .footer {
-  visibility: hidden;
   background: #F5F5FA;
   border-radius: 0px 0px 12px 12px;
   transform: matrix(1, 0, 0, -1, 0, 0);
-
 }
 
 .servicewrap-footer {
@@ -1264,5 +1255,4 @@ a {
   color: #B3B3BA;
   margin-top: -90px;
   margin-right: 50px;
-
 }
