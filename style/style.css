@@ -559,18 +559,20 @@ a {
   background: rgba(0, 0, 0, 1);
 }
 
-.sixt-section  {
-  height: 872px; 
+.sixt-section {
+  height: 872px;
   overflow: hidden;
   position: relative;
 }
-.shade{
+
+.shade {
   position: absolute;
   bottom: 0;
   height: 200px;
   width: 100%;
   background: url('../images/Shade.png') repeat-x center center/cover;
 }
+
 .publication {
   margin: 40px 59px;
 }
@@ -1256,12 +1258,14 @@ a {
   margin-top: -90px;
   margin-right: 50px;
 }
+
 /* services page */
 .service-page-second-section {
-  background: url("../images/Cover.png") repeat-x top,linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  background: url("../images/Cover.png") repeat-x top, linear-gradient(228.57deg, #323264 11.93%, #323264 70.17%, #643E72 87.46%);
   border-radius: 0px 0px 12px 12px;
   position: relative;
 }
+
 .service-page-second-section:before,
 .service-page-second-section:after {
   content: "";
@@ -1277,4 +1281,91 @@ a {
   bottom: -20px;
   background: url("../images/bottom-line-small.png") no-repeat center center;
   background-size: 95%;
+}
+
+.wrap-intro {
+  display: flex;
+  justify-content: center;
+}
+
+.intro img {
+  margin-left: 340px;
+}
+
+.it-text {
+  font-family: 'TT Norms';
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-p {
+  font-family: 'TT Norms';
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 50px;
+  background: #24A3FF;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  margin-left: 270px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.button a {
+  font-family: 'TT Norms';
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin: 17px;
+}
+.services{
+  display: flex;
+  justify-content: center;
+}
+.servtext h3 {
+  font-family: 'TT Norms';
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin: 20px 100px 20px;
+}
+.wrap-coll {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rightcoll p img {
+  margin-right: 7.96px;
+}
+
+.rightcoll p {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.leftcoll p {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.leftcoll p img {
+  margin-right: 7.96px;
 }
