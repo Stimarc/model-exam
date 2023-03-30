@@ -191,27 +191,13 @@ a {
 
 .services {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
-
-.service-menu6 {
-  margin-top: 65px;
+.service-menu{
+  width: 413px;
+  height: 313px;
 }
-
-.service-menu6 h3 {
-  font-family: "TT Norms";
-  font-size: 24px;
-  line-height: 28px;
-  color: #24A3FF;
-}
-
-.service-menu6 p {
-  font-family: "TT Norms";
-  font-size: 18px;
-  line-height: 26px;
-  color: #FFFFFF;
-}
-
 .service-menu h3 {
   font-family: "TT Norms";
   font-size: 24px;
@@ -1332,10 +1318,12 @@ a {
   display: inline-block;
   margin: 17px;
 }
-.services{
+
+.services {
   display: flex;
   justify-content: center;
 }
+
 .servtext h3 {
   font-family: 'TT Norms';
   font-size: 24px;
@@ -1343,6 +1331,7 @@ a {
   color: #FFFFFF;
   margin: 20px 100px 20px;
 }
+
 .wrap-coll {
   display: flex;
   justify-content: space-around;
@@ -1368,4 +1357,252 @@ a {
 
 .leftcoll p img {
   margin-right: 7.96px;
+}
+
+/* Team page */
+.team-logo {
+  margin-top: 50px;
+}
+
+.team-logo span {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  color: #323264;
+}
+
+.team-wrap-lang {
+  display: flex;
+  justify-content: end;
+}
+
+.team-wrap-lang {
+  display: flex;
+  justify-content: end;
+}
+
+.team-menu-lang {
+  display: flex;
+  position: relative;
+}
+
+.team-language-active a {
+  width: 29px;
+  height: 24px;
+  background: url(../images/Active.png);
+  border-radius: 8px;
+}
+
+.team-language a:hover {
+  color: #F0145A;
+}
+
+.team-language1 a {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(179, 179, 186, 1);
+}
+
+.team-wrap-nav {
+  display: flex;
+  justify-content: end;
+}
+
+.team-wrap-nav a:hover {
+  color: #F0145A;
+}
+
+.menu-lang {
+  display: flex;
+  position: relative;
+}
+
+.team-language-active a {
+  width: 29px;
+  height: 24px;
+  background: url(../images/Active.png);
+  border-radius: 8px;
+}
+
+.team-language a:hover {
+  color: #F0145A;
+}
+
+.team-wrap-nav {
+  display: flex;
+  justify-content: end;
+}
+
+.team-wrap-nav a:hover {
+  color: #F0145A;
+}
+
+.team {
+  display: flex;
+  position: relative;
+}
+
+.team-language a {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgba(179, 179, 186, 1);
+}
+
+.team-menu-lang a {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.team a {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B3B3BA;
+}
+
+.team-wrap-nav a {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  color: #24A3FF;
+  margin: 15px;
+}
+
+.wrap-teamh3 {
+  margin: 80px 287px 30px;
+}
+
+.wrap-teamh3 h3 {
+  font-family: 'TT Norms';
+  font-size: 42px;
+  line-height: 49px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.wrap-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wrap-team h4 {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #323264;
+  margin-top: 20px;
+}
+
+.wrap-team p {
+  font-family: 'TT Norms';
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+
+.team-wrap-footer {
+  background: #F5F5FA;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.team-copy h2 {
+  display: flex;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #B3B3BA;
+  margin-left: 590px;
+}
+
+/* Team page member */
+.wrap-member {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-item {
+  margin-top: -20px;
+}
+
+.team-item h4 {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #323264;
+}
+
+.team-item p {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+
+.heading-item li {
+  display: inline;
+}
+
+.heading-team h2 {
+  font-family: 'TT Norms';
+  font-size: 42px;
+  line-height: 49px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heading-team span {
+  font-family: 'TT Norms';
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+
+.bio p {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.bio h3 {
+  font-family: 'TT Norms';
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
 }
