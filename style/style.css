@@ -194,11 +194,13 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.service-menu{
+
+.service-menu {
   width: 413px;
   height: 313px;
 }
-.service-menu h3 {
+
+.service-menu a {
   font-family: "TT Norms";
   font-size: 24px;
   line-height: 28px;
@@ -226,7 +228,7 @@ a {
   display: flex;
 }
 
-.texting h3 {
+.texting a {
   font-family: 'TT Norms';
   font-style: normal;
   font-weight: 700;
@@ -855,7 +857,8 @@ a {
 
 /* .about page */
 .about-logo {
-  margin-top: 50px;
+  padding: 35px;
+  margin-bottom: -100px;
 }
 
 .about-logo span {
@@ -1361,7 +1364,8 @@ a {
 
 /* Team page */
 .team-logo {
-  margin-top: 50px;
+  padding: 35px;
+  margin-bottom: -100px;
 }
 
 .team-logo span {
@@ -1543,6 +1547,11 @@ a {
 }
 
 /* Team page member */
+.team-logo {
+  padding: 35px;
+  margin-bottom: -100px;
+}
+
 .wrap-member {
   display: flex;
   justify-content: space-around;
@@ -1606,3 +1615,134 @@ a {
   text-transform: uppercase;
   color: #323264;
 }
+
+/* contact */
+.contact-logo {
+  padding: 35px;
+  margin-bottom: -100px;
+}
+
+.contact-logo span {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  color: #323264;
+}
+
+.contact-wrap-lang {
+  display: flex;
+  justify-content: end;
+}
+
+.contact-wrap-lang {
+  display: flex;
+  justify-content: end;
+}
+
+.contact-menu-lang {
+  display: flex;
+  position: relative;
+}
+
+.contact-language-active a {
+  width: 29px;
+  height: 24px;
+  background: url(../images/Active.png);
+  border-radius: 8px;
+}
+
+.contact-language a:hover {
+  color: #F0145A;
+}
+
+.contact-language1 a {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(179, 179, 186, 1);
+}
+
+.contact-wrap-nav {
+  display: flex;
+  justify-content: end;
+}
+
+.contact-wrap-nav a:hover {
+  color: #F0145A;
+}
+
+.menu-lang {
+  display: flex;
+  position: relative;
+  padding-top: 10px;
+}
+
+.contact-language-active a {
+  width: 29px;
+  height: 24px;
+  background: url(../images/Active.png);
+  border-radius: 8px;
+}
+
+.contact-language a:hover {
+  color: #F0145A;
+}
+
+.contact-wrap-nav {
+  display: flex;
+  justify-content: end;
+}
+
+.contact-wrap-nav a:hover {
+  color: #F0145A;
+}
+
+.contact {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.tcontact-language a {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: rgba(179, 179, 186, 1);
+}
+
+.contact-menu-lang a {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.contact a {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B3B3BA;
+}
+
+.contact-wrap-nav a {
+  font-family: 'TT Norms';
+  font-size: 18px;
+  line-height: 21px;
+  color: #24A3FF;
+  margin: 15px;
+}
+
+/* contact popup */
