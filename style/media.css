@@ -1,5 +1,5 @@
 
-@media(max-width:1110px){
+@media(max-width:1200px){
     .container{
         max-width: 970px;
     }
@@ -15,16 +15,4 @@
         max-width:none;
        
     }
-}
-@media(max-width:375px){
-    .container{
-        min-width: 320px;
-       
-       
-    }
-    .head{
-        width: 100%;
-    }
-  
-
 }

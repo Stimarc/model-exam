@@ -1746,3 +1746,78 @@ a {
 }
 
 /* contact popup */
+.center {
+  width: 1440px;
+  height: 1089px;
+  background: #323264;
+  opacity: 0.7;
+}
+
+.text-popup {
+  width: 527px;
+  height: 576px;
+  background: #F5F5FA;
+  border-radius: 12px;
+}
+
+.h2text h2 {
+  font-family: 'TT Norms';
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.data-name input {
+  width: 487px;
+  height: 47px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.data-message input {
+  width: 487px;
+  height: 180px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.h3text h3 {
+  font-family: 'TT Norms';
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #B3B3BA;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.data-number input {
+  width: 487px;
+  height: 47px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.data-mail input {
+  width: 487px;
+  height: 47px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.btn{
+background: #24A3FF;
+box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+border-radius: 12px;
+margin-bottom: 10px;
+}
