@@ -72,8 +72,11 @@ a {
 .menu-lang {
   display: flex;
   position: relative;
+  margin-top: -10px;
 }
-
+.item-numb{
+  display: flex;
+}
 .language-active a {
   width: 29px;
   height: 24px;
@@ -85,11 +88,15 @@ a {
   color: #F0145A;
 }
 
-.wrap-nav {
+.wrap-nav ul{
   display: flex;
   justify-content: end;
 }
+.nav-button{
+  display: none;
 
+  
+}
 .wrap-nav a:hover {
   color: #F0145A;
 }
@@ -112,6 +119,7 @@ a {
 .experience {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .exp-menu a:hover {
@@ -485,6 +493,7 @@ a {
   grid-template-columns: 360px 360px 360px 360px;
   grid-template-rows: 120px 120px 120px;
   justify-content: center;
+ 
 }
 
 .gridclient1 {
@@ -595,6 +604,7 @@ a {
   grid-template-columns: repeat(3, 414px);
   grid-template-rows: 271px 120px 10px 270px;
   grid-gap: 40px;
+  flex-wrap: wrap;
 }
 
 .gridpubl1 {
