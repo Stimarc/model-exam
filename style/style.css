@@ -16,7 +16,7 @@ a {
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -75,6 +75,41 @@ a {
   margin-top: -10px;
 }
 
+.burger{
+  cursor: pointer;
+  display: none;
+  position: relative;
+  transition: .5s ease-in-out;
+  width: 35px;
+  height: 35px;
+}
+.burger-line{
+  width: 40px;
+  height: 3px;
+  background: #000;
+  margin: 5px;
+  transition: .5s ease-in-out;
+}
+.burger.active .burger-line{
+  position: absolute;
+  transition: .5s ease-in-out;
+}
+.burger.active .burger-line:nth-child(2){
+  opacity: 0;
+}
+.burger.active .burger-line:nth-child(1){
+  transform: rotate(45deg);
+}
+.burger.active .burger-line:nth-child(3){
+  transform: rotate(-45deg);
+}
+
+.hidden{
+  overflow: hidden;
+}
+
+
+
 .item-numb {
   display: flex;
 }
@@ -90,15 +125,16 @@ a {
   color: #F0145A;
 }
 
-.wrap-nav ul {
+.wrap-nav  {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
-
-.nav-button {
-  display: none;
-
-
+.menu{
+  transition: 1s ease-in-out;
+}
+.nav-item{
+  display: inline-block;
+  margin: 10px;
 }
 
 .wrap-nav a:hover {
@@ -1836,13 +1872,15 @@ a {
   display: block;
   margin-bottom: 60px;
 }
-.section-map{
-padding-top: 60px;
+
+.section-map {
+  padding-top: 60px;
 }
-.odessamap iframe{
+
+.odessamap iframe {
   width: 1440px;
   height: 600px;
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* contact popup */
