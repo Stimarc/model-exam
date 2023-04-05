@@ -1,18 +1,14 @@
 
-@media(max-width:820px){
- .wrap-nav{
-    display: none;
- }
+@media(max-width:1400px){
+ 
+   }
+
  .nav-button{
-    display: block;
- }
- .menu-lang{
-    justify-content: left;
- }
- .item-numb{
     display: none;
  }
+ 
+ 
  .text p{
     flex-direction: column;
  }
-}
+

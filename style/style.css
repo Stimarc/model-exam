@@ -48,7 +48,7 @@ a {
 }
 
 .head {
-  margin-bottom: 100px;
+  padding: 60px;
 }
 
 .head a {
@@ -74,9 +74,11 @@ a {
   position: relative;
   margin-top: -10px;
 }
-.item-numb{
+
+.item-numb {
   display: flex;
 }
+
 .language-active a {
   width: 29px;
   height: 24px;
@@ -88,15 +90,17 @@ a {
   color: #F0145A;
 }
 
-.wrap-nav ul{
+.wrap-nav ul {
   display: flex;
   justify-content: end;
 }
-.nav-button{
+
+.nav-button {
   display: none;
 
-  
+
 }
+
 .wrap-nav a:hover {
   color: #F0145A;
 }
@@ -493,7 +497,7 @@ a {
   grid-template-columns: 360px 360px 360px 360px;
   grid-template-rows: 120px 120px 120px;
   justify-content: center;
- 
+
 }
 
 .gridclient1 {
@@ -604,7 +608,7 @@ a {
   grid-template-columns: repeat(3, 414px);
   grid-template-rows: 271px 120px 10px 270px;
   grid-gap: 40px;
-  flex-wrap: wrap;
+
 }
 
 .gridpubl1 {
@@ -1627,6 +1631,7 @@ a {
 }
 
 /* contact */
+
 .contact-logo {
   padding: 35px;
   margin-bottom: -100px;
@@ -1718,7 +1723,7 @@ a {
   margin-bottom: 15px;
 }
 
-.tcontact-language a {
+.contact-language a {
   font-family: 'TT Norms';
   font-style: normal;
   font-weight: 700;
@@ -1755,19 +1760,111 @@ a {
   margin: 15px;
 }
 
-/* contact popup */
-.center {
-  width: 1440px;
-  height: 1089px;
-  background: #323264;
-  opacity: 0.7;
+.wrap-form {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.text-popup {
+.contact-text {
+  width: 414px;
+  height: 298px;
+  display: block;
+  padding: 100px 0px 0px;
+}
+
+.texth4 {
+  padding-bottom: 60px;
+}
+
+.contact-text h4 {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  color: #323264;
+}
+
+.numb-cont {
+  padding-bottom: 40px;
+}
+
+.numb-cont a {
+  font-family: 'TT Norms';
+  font-size: 21px;
+  color: #46466E;
+}
+
+.mail-cont {
+  padding-bottom: 20px;
+}
+
+.mail-cont a {
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  color: #24A3FF;
+}
+
+.cont-h2text h2 {
+  font-family: 'TT Norms';
+  font-size: 32px;
+  line-height: 38px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 20px;
+}
+
+.cont-btn {
+  width: 250px;
+  height: 50px;
+  background: #24A3FF;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  text-align: center;
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+
+.cont-send a {
+  font-family: 'TT Norms';
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 60px;
+}
+.section-map{
+padding-top: 60px;
+}
+.odessamap iframe{
+  width: 1440px;
+  height: 600px;
+ margin-top: 20px;
+}
+
+/* contact popup */
+.center {
+  width: 100%;
+  height: 830px;
+  background: #323264;
+  opacity: 0.7;
+
+}
+
+.wrap-popup form {
   width: 527px;
-  height: 576px;
+  height: 600px;
   background: #F5F5FA;
   border-radius: 12px;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
 }
 
 .h2text h2 {
@@ -1779,6 +1876,10 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.h2text img {
+  padding-left: 50px;
 }
 
 .data-name input {
@@ -1804,8 +1905,9 @@ a {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #B3B3BA;
-  margin-top: -20px;
+  margin-top: 10px;
   margin-left: 20px;
+  padding-bottom: 10px;
 }
 
 .data-number input {
@@ -1825,9 +1927,19 @@ a {
   margin-bottom: 20px;
   margin-left: 20px;
 }
-.btn{
-background: #24A3FF;
-box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
-border-radius: 12px;
-margin-bottom: 10px;
+
+.btn {
+  background: #24A3FF;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  margin: 6px 130px 0px;
+}
+
+.send a {
+  font-family: 'TT Norms';
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+
 }
