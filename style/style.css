@@ -1042,6 +1042,7 @@ a {
   justify-content: space-between;
   margin-top: 82px;
   margin-bottom: 250px;
+  padding: 40px;
 }
 
 .about-introduction h3 {
@@ -1862,6 +1863,7 @@ a {
   text-align: center;
   margin-left: 120px;
   margin-bottom: 10px;
+  padding: 18px;
 }
 
 .cont-send a {
@@ -1870,7 +1872,7 @@ a {
   line-height: 16px;
   color: #FFFFFF;
   display: block;
-  margin-bottom: 60px;
+  
 }
 
 .section-map {

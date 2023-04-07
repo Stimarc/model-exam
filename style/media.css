@@ -1,9 +1,3 @@
-
-@media screen and (max-width: 1000px) {
-    
-
-
-}
 @media screen and (max-width: 768px) {
     .container{
         padding: 0 20px;
@@ -18,17 +12,16 @@
     }
     .menu{
         position: fixed;
-        /* right: -100%; */
+        right: 100%;
         left: 0;
-        top: -100%;
+        top: 100%;
         background: rgb(178, 32, 47);
         width: 100vw;
-        /* height: 100vh; */
         padding: 150px 50px 0;
         /* top: 0; */
     }
     .menu.active{
-        /* right: 0; */
+       right: 0;
         top: 0;
     }
 }
@@ -38,5 +31,75 @@
     }
     .menu-item{
         text-align: center;
+    }
+}
+/* Кейсы */
+@media only screen and (max-width: 767px) {
+    .four-section .wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .four-section .caseitem1,
+    .four-section .caseitem2,
+    .four-section .caseitem3,
+    .four-section .caseitem4,
+    .four-section .caseitem5,
+    .four-section .caseitem6 {
+        margin-bottom: 30px;
+    }
+}
+/* Клиенты */
+
+  @media only screen and (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+/* Публикации */
+
+@media only screen and (max-width: 767px) {
+    .gridpublic {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .gridpublic > div {
+    flex: 1 1 100%;
+    }
+    }
+    
+    @media only screen and (min-width: 768px) {
+    .gridpublic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    }
+    .gridpublic > div {
+    flex: auto;
+    }
+    }
+/* Подвал */
+@media (max-width: 768px) {
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot-map ul {
+        margin-bottom: 0.5rem;
+    }
+    .facemail ul {
+        margin-top: 0.5rem;
+    }
+    .copy {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
     }
 }
