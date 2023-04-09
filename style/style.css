@@ -160,6 +160,7 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 40px;
 }
 
 .exp-menu a:hover {
@@ -182,7 +183,9 @@ a {
   line-height: 50px;
   color: #B3B3BA;
 }
-
+.paginat{
+  display: none;
+}
 
 .introduction h1 {
   font-family: "TT Norms";
@@ -199,9 +202,7 @@ a {
 }
 
 .headin {
-  margin-left: -50px;
-  margin-top: 80px;
-  margin-bottom: 68px;
+padding: 80px 30px 121px;
 }
 
 .head1 a {
@@ -1214,7 +1215,9 @@ a {
   line-height: 45px;
   color: #FFFFFF;
 }
-
+.wrap-nav ul{
+  display: flex;
+}
 .footer {
   background: #F5F5FA;
   border-radius: 0px 0px 12px 12px;
